@@ -1,4 +1,4 @@
-package exercises
+package exercises.topinterview150problems.array.easy
 
 import org.junit.jupiter.api.Test
 

@@ -1,3 +1,9 @@
+import tasks.delegatelogging.runWorkersSolution
+
 fun main(args: Array<String>) {
-    println("Hello World!")
+    println("Start main")
+
+    runWorkersSolution()
+
+    println("End main")
 }

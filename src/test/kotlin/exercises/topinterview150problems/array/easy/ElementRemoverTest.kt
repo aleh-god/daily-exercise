@@ -1,4 +1,4 @@
-package exercises
+package exercises.topinterview150problems.array.easy
 
 import org.junit.jupiter.api.Test
 
@@ -9,7 +9,7 @@ class ElementRemoverTest {
     @Test
     fun `test example 1`() {
             val elementRemover = ElementRemover.MainSolution(
-                input = intArrayOf(3,2,2,3)
+                input = intArrayOf(3, 2, 2, 3)
             )
 
             val result = elementRemover.remove(3)
@@ -25,7 +25,7 @@ class ElementRemoverTest {
     @Test
     fun `test example 2`() {
         val elementRemover = ElementRemover.MainSolution(
-            input = intArrayOf(0,1,2,2,3,0,4,2)
+            input = intArrayOf(0, 1, 2, 2, 3, 0, 4, 2)
         )
 
         val result = elementRemover.remove(2)
@@ -41,7 +41,7 @@ class ElementRemoverTest {
     @Test
     fun `Kotlin Lib test example 3`() {
         val elementRemover = ElementRemover.KotlinLibSolution(
-            input = intArrayOf(0,1,2,2,3,0,4,2)
+            input = intArrayOf(0, 1, 2, 2, 3, 0, 4, 2)
         )
 
         val result = elementRemover.remove(2)
