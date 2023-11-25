@@ -11,6 +11,7 @@ class MainExerciseTest {
 
         assertEquals("Hello World!", useCase.checkMain())
     }
+
     @Test
     fun `test example 1`() {
 
