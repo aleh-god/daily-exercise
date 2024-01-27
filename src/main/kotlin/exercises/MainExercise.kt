@@ -2,9 +2,9 @@ package exercises
 
 interface MainExercise {
 
-    fun checkMain(): String
+    fun check(): Boolean
 
     class BaseSolution : MainExercise {
-        override fun checkMain(): String = "Hello World!"
+        override fun check() = true
     }
 }
