@@ -1,10 +1,10 @@
-package exercises.topinterview150problems.array.easy
+package exercises.topinterview150problems.hashmap.easy
 
 import kotlin.test.*
 
-class IsomorphicStringsTest {
+class IsomorphicStringsCheckerTest {
 
-    private val useCase = IsomorphicStrings.BaseSolution()
+    private val useCase = IsomorphicStringsChecker.BaseSolution()
 
     @Test
     fun `test example 1`() {

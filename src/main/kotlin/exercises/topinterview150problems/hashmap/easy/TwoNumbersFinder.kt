@@ -1,4 +1,4 @@
-package exercises.topinterview150problems.array.easy
+package exercises.topinterview150problems.hashmap.easy
 
 /**
  * https://leetcode.com/problems/two-sum/?envType=study-plan-v2&envId=top-interview-150

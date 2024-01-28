@@ -1,4 +1,4 @@
-package exercises.topinterview150problems.array.easy
+package exercises.topinterview150problems.hashmap.easy
 
 /**
  * https://leetcode.com/problems/isomorphic-strings/description/?envType=study-plan-v2&envId=top-interview-150
@@ -11,11 +11,11 @@ package exercises.topinterview150problems.array.easy
  * No two characters may map to the same character, but a character may map to itself.
  */
 
-interface IsomorphicStrings {
+interface IsomorphicStringsChecker {
 
     fun isIsomorphic(s: String, t: String): Boolean
 
-    class BaseSolution : IsomorphicStrings {
+    class BaseSolution : IsomorphicStringsChecker {
 
         override fun isIsomorphic(s: String, t: String): Boolean {
 

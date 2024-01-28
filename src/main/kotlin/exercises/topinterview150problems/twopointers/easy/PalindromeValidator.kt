@@ -1,4 +1,4 @@
-package exercises.topinterview150problems.array.easy
+package exercises.topinterview150problems.twopointers.easy
 
 /**
  * https://leetcode.com/problems/valid-palindrome/?envType=study-plan-v2&envId=top-interview-150

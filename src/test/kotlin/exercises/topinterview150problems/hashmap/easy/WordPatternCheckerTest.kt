@@ -1,10 +1,10 @@
-package exercises.topinterview150problems.array.easy
+package exercises.topinterview150problems.hashmap.easy
 
 import org.junit.jupiter.api.Test
 
-class WordPatternTest {
+class WordPatternCheckerTest {
 
-    private val useCase = WordPattern.BaseSolution()
+    private val useCase = WordPatternChecker.BaseSolution()
 
     @Test
     fun `test example 1`() {

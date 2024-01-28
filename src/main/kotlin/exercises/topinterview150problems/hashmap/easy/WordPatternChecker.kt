@@ -1,4 +1,4 @@
-package exercises.topinterview150problems.array.easy
+package exercises.topinterview150problems.hashmap.easy
 
 /**
  * https://leetcode.com/problems/word-pattern/description/?envType=study-plan-v2&envId=top-interview-150
@@ -7,11 +7,11 @@ package exercises.topinterview150problems.array.easy
  *
  * Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s.
  */
-interface WordPattern {
+interface WordPatternChecker {
 
     fun wordPattern(pattern: String, s: String): Boolean
 
-    class BaseSolution : WordPattern {
+    class BaseSolution : WordPatternChecker {
         override fun wordPattern(pattern: String, s: String): Boolean {
 
             val dict: MutableMap<Char, String> = mutableMapOf()
@@ -29,7 +29,7 @@ interface WordPattern {
         }
     }
 
-    class FastSolution : WordPattern {
+    class FastSolution : WordPatternChecker {
         override fun wordPattern(pattern: String, s: String): Boolean {
             val lettersMap = HashMap<Char, String>()
             val wordsMap = HashMap<String, Char>()
