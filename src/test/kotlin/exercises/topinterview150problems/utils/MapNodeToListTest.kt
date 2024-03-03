@@ -4,7 +4,7 @@ import exercises.topinterview150problems.models.ListNode
 import exercises.topinterview150problems.models.listNodeOf
 import kotlin.test.Test
 
-class UtilsKtTest {
+class MapNodeToListTest {
 
     @Test
     fun `test mapNodeToList`() {
